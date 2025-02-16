@@ -1,4 +1,4 @@
-using ModelingToolkit, GLFW, ModelingToolkitJoystick
+using ModelingToolkit, GLFW, ModelingToolkitJoysticks
 using ModelingToolkit: t_nounits as t, D_nounits as D
 using OrdinaryDiffEqTsit5, Dates
 @named joystick = Joystick(GLFW.JOYSTICK_1)

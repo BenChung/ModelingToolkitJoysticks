@@ -1,4 +1,4 @@
-name = "ModelingToolkitJoystick"
+name = "ModelingToolkitJoysticks"
 uuid = "7e02f2af-d440-4c08-8401-b0517a24ed29"
 authors = ["Ben Chung <ckfinite@gmail.com>"]
 version = "0.1.0"

@@ -1,4 +1,4 @@
-module ModelingToolkitJoystick
+module ModelingToolkitJoysticks
 using ModelingToolkit, GLFW, Symbolics
 using ModelingToolkit: t_nounits as t, D_nounits as D
 
@@ -30,4 +30,5 @@ end
 end
 get_joystick_by_number(num) = if num >= 1 && num <= 16 GLFW.Joystick(num - 1) else throw("Invalid joystick number $num") end
 
+export Joystick
 end # module ModelingToolkitJoystick
